@@ -1,0 +1,698 @@
+{
+  "Jackie Marshall": {
+    "number": "0",
+    "position": "DL",
+    "first_name": "Jackie",
+    "last_name": "Marshall"
+  },
+  "Michael Trigg": {
+    "number": "1",
+    "position": "TE",
+    "first_name": "Michael",
+    "last_name": "Trigg"
+  },
+  "Kole Wilson": {
+    "number": "2",
+    "position": "WR",
+    "first_name": "Kole",
+    "last_name": "Wilson"
+  },
+  "Devyn Bobby": {
+    "number": "3",
+    "position": "S",
+    "first_name": "Devyn",
+    "last_name": "Bobby"
+  },
+  "Louis Brown": {
+    "number": "4",
+    "position": "WR",
+    "first_name": "Louis",
+    "last_name": "Brown"
+  },
+  "Carl Williams": {
+    "number": "5",
+    "position": "S",
+    "first_name": "Carl",
+    "last_name": "Williams"
+  },
+  "Ashtyn Hawkins": {
+    "number": "6",
+    "position": "WR",
+    "first_name": "Ashtyn",
+    "last_name": "Hawkins"
+  },
+  "Bryson Washington": {
+    "number": "7",
+    "position": "RB",
+    "first_name": "Bryson",
+    "last_name": "Washington"
+  },
+  "Caden Jenkins": {
+    "number": "8",
+    "position": "CB",
+    "first_name": "Caden",
+    "last_name": "Jenkins"
+  },
+  "Cooper Lanz": {
+    "number": "9",
+    "position": "DL",
+    "first_name": "Cooper",
+    "last_name": "Lanz"
+  },
+  "Keaton Thomas": {
+    "number": "11",
+    "position": "LB",
+    "first_name": "Keaton",
+    "last_name": "Thomas"
+  },
+  "Walker White": {
+    "number": "11",
+    "position": "QB",
+    "first_name": "Walker",
+    "last_name": "White"
+  },
+  "Kyler Beaty": {
+    "number": "12",
+    "position": "CB",
+    "first_name": "Kyler",
+    "last_name": "Beaty"
+  },
+  "Kelsey Johnson": {
+    "number": "12",
+    "position": "TE",
+    "first_name": "Kelsey",
+    "last_name": "Johnson"
+  },
+  "Sawyer Robertson": {
+    "number": "13",
+    "position": "QB",
+    "first_name": "Sawyer",
+    "last_name": "Robertson"
+  },
+  "Devin Turner": {
+    "number": "13",
+    "position": "S",
+    "first_name": "Devin",
+    "last_name": "Turner"
+  },
+  "Nate Bennett": {
+    "number": "14",
+    "position": "QB",
+    "first_name": "Nate",
+    "last_name": "Bennett"
+  },
+  "KJ Makins": {
+    "number": "14",
+    "position": "CB",
+    "first_name": "KJ",
+    "last_name": "Makins"
+  },
+  "Edward Griffin": {
+    "number": "15",
+    "position": "QB",
+    "first_name": "Edward",
+    "last_name": "Griffin"
+  },
+  "Kobe Prentice": {
+    "number": "16",
+    "position": "WR",
+    "first_name": "Kobe",
+    "last_name": "Prentice"
+  },
+  "Kendrick Simpkins": {
+    "number": "16",
+    "position": "S",
+    "first_name": "Kendrick",
+    "last_name": "Simpkins"
+  },
+  "Cade Tessier": {
+    "number": "17",
+    "position": "QB",
+    "first_name": "Cade",
+    "last_name": "Tessier"
+  },
+  "Tyler Turner": {
+    "number": "17",
+    "position": "S",
+    "first_name": "Tyler",
+    "last_name": "Turner"
+  },
+  "Tyler Kirkwood": {
+    "number": "18",
+    "position": "WR",
+    "first_name": "Tyler",
+    "last_name": "Kirkwood"
+  },
+  "Caldra Williford": {
+    "number": "18",
+    "position": "CB",
+    "first_name": "Caldra",
+    "last_name": "Williford"
+  },
+  "Leo Almanza": {
+    "number": "19",
+    "position": "CB",
+    "first_name": "Leo",
+    "last_name": "Almanza"
+  },
+  "Placide Djungu-Sungu": {
+    "number": "20",
+    "position": "S",
+    "first_name": "Placide",
+    "last_name": "Djungu-Sungu"
+  },
+  "Jacorey Watson": {
+    "number": "20",
+    "position": "WR",
+    "first_name": "Jacorey",
+    "last_name": "Watson"
+  },
+  "Michael Johnson": {
+    "number": "21",
+    "position": "WR",
+    "first_name": "Michael",
+    "last_name": "Johnson"
+  },
+  "Bo Onu": {
+    "number": "21",
+    "position": "S",
+    "first_name": "Bo",
+    "last_name": "Onu"
+  },
+  "Reggie Bush": {
+    "number": "22",
+    "position": "CB",
+    "first_name": "Reggie",
+    "last_name": "Bush"
+  },
+  "Caden Knighten": {
+    "number": "22",
+    "position": "RB",
+    "first_name": "Caden",
+    "last_name": "Knighten"
+  },
+  "Cameren Jenkins": {
+    "number": "23",
+    "position": "S",
+    "first_name": "Cameren",
+    "last_name": "Jenkins"
+  },
+  "Michael Turner": {
+    "number": "23",
+    "position": "RB",
+    "first_name": "Michael",
+    "last_name": "Turner"
+  },
+  "Micah Gifford": {
+    "number": "24",
+    "position": "S",
+    "first_name": "Micah",
+    "last_name": "Gifford"
+  },
+  "LeVar Thornton": {
+    "number": "25",
+    "position": "CB",
+    "first_name": "LeVar",
+    "last_name": "Thornton"
+  },
+  "Colin Peacock": {
+    "number": "26",
+    "position": "S",
+    "first_name": "Colin",
+    "last_name": "Peacock"
+  },
+  "Joseph Dodds": {
+    "number": "27",
+    "position": "RB",
+    "first_name": "Joseph",
+    "last_name": "Dodds"
+  },
+  "Tevin Williams": {
+    "number": "27",
+    "position": "CB",
+    "first_name": "Tevin",
+    "last_name": "Williams"
+  },
+  "Calvin Simpson-Hunt": {
+    "number": "28",
+    "position": "CB",
+    "first_name": "Calvin",
+    "last_name": "Simpson-Hunt"
+  },
+  "Kris Wokomah": {
+    "number": "29",
+    "position": "S",
+    "first_name": "Kris",
+    "last_name": "Wokomah"
+  },
+  "Michael Allen": {
+    "number": "30",
+    "position": "S",
+    "first_name": "Michael",
+    "last_name": "Allen"
+  },
+  "Mason Dossett": {
+    "number": "31",
+    "position": "WR",
+    "first_name": "Mason",
+    "last_name": "Dossett"
+  },
+  "Phoenix Jackson": {
+    "number": "31",
+    "position": "LB",
+    "first_name": "Phoenix",
+    "last_name": "Jackson"
+  },
+  "Brody Day": {
+    "number": "32",
+    "position": "WR",
+    "first_name": "Brody",
+    "last_name": "Day"
+  },
+  "Emar'rion Winston": {
+    "number": "32",
+    "position": "OLB",
+    "first_name": "Emar'rion",
+    "last_name": "Winston"
+  },
+  "DJ Coleman": {
+    "number": "33",
+    "position": "S",
+    "first_name": "DJ",
+    "last_name": "Coleman"
+  },
+  "MJ Artmore": {
+    "number": "34",
+    "position": "CB",
+    "first_name": "MJ",
+    "last_name": "Artmore"
+  },
+  "Josh Cameron": {
+    "number": "34",
+    "position": "WR",
+    "first_name": "Josh",
+    "last_name": "Cameron"
+  },
+  "Dawson Pendergrass": {
+    "number": "35",
+    "position": "RB",
+    "first_name": "Dawson",
+    "last_name": "Pendergrass"
+  },
+  "Travion Barnes": {
+    "number": "36",
+    "position": "LB",
+    "first_name": "Travion",
+    "last_name": "Barnes"
+  },
+  "Ryne Shackelford": {
+    "number": "36",
+    "position": "WR",
+    "first_name": "Ryne",
+    "last_name": "Shackelford"
+  },
+  "Demetrius Brisbon": {
+    "number": "37",
+    "position": "S",
+    "first_name": "Demetrius",
+    "last_name": "Brisbon"
+  },
+  "Joseph Hagman": {
+    "number": "37",
+    "position": "RB",
+    "first_name": "Joseph",
+    "last_name": "Hagman"
+  },
+  "Jacob Redding": {
+    "number": "38",
+    "position": "S",
+    "first_name": "Jacob",
+    "last_name": "Redding"
+  },
+  "Wilson Eseme": {
+    "number": "39",
+    "position": "RB",
+    "first_name": "Wilson",
+    "last_name": "Eseme"
+  },
+  "Kyler Jordan": {
+    "number": "40",
+    "position": "OLB",
+    "first_name": "Kyler",
+    "last_name": "Jordan"
+  },
+  "Kaleb Burns": {
+    "number": "41",
+    "position": "LB",
+    "first_name": "Kaleb",
+    "last_name": "Burns"
+  },
+  "Jeremy Evans": {
+    "number": "42",
+    "position": "LB",
+    "first_name": "Jeremy",
+    "last_name": "Evans"
+  },
+  "Brody Wilhelm": {
+    "number": "43",
+    "position": "TE",
+    "first_name": "Brody",
+    "last_name": "Wilhelm"
+  },
+  "Ke'Breion Winston": {
+    "number": "44",
+    "position": "LB",
+    "first_name": "Ke'Breion",
+    "last_name": "Winston"
+  },
+  "Kyland Reed": {
+    "number": "45",
+    "position": "LB",
+    "first_name": "Kyland",
+    "last_name": "Reed"
+  },
+  "Jad Darkazalli": {
+    "number": "48",
+    "position": "S",
+    "first_name": "Jad",
+    "last_name": "Darkazalli"
+  },
+  "Trey Laurence": {
+    "number": "49",
+    "position": "LB",
+    "first_name": "Trey",
+    "last_name": "Laurence"
+  },
+  "Matthew Fobbs-White": {
+    "number": "50",
+    "position": "OLB",
+    "first_name": "Matthew",
+    "last_name": "Fobbs-White"
+  },
+  "Kamauryn Morgan": {
+    "number": "51",
+    "position": "OLB",
+    "first_name": "Kamauryn",
+    "last_name": "Morgan"
+  },
+  "Corey Kelly": {
+    "number": "52",
+    "position": "OLB",
+    "first_name": "Corey",
+    "last_name": "Kelly"
+  },
+  "Ronnie Mageo": {
+    "number": "53",
+    "position": "DL",
+    "first_name": "Ronnie",
+    "last_name": "Mageo"
+  },
+  "David Marshall": {
+    "number": "54",
+    "position": "DL",
+    "first_name": "David",
+    "last_name": "Marshall"
+  },
+  "Jaylin Jones": {
+    "number": "55",
+    "position": "OLB",
+    "first_name": "Jaylin",
+    "last_name": "Jones"
+  },
+  "Christopher Johnson": {
+    "number": "57",
+    "position": "DL",
+    "first_name": "Christopher",
+    "last_name": "Johnson"
+  },
+  "Wes Tucker": {
+    "number": "57",
+    "position": "OL",
+    "first_name": "Wes",
+    "last_name": "Tucker"
+  },
+  "Devonte Tezino": {
+    "number": "59",
+    "position": "DL",
+    "first_name": "Devonte",
+    "last_name": "Tezino"
+  },
+  "Drake Knobloch": {
+    "number": "60",
+    "position": "LS",
+    "first_name": "Drake",
+    "last_name": "Knobloch"
+  },
+  "Cayden Tone": {
+    "number": "61",
+    "position": "OL",
+    "first_name": "Cayden",
+    "last_name": "Tone"
+  },
+  "Ryan Lengyel": {
+    "number": "62",
+    "position": "OL",
+    "first_name": "Ryan",
+    "last_name": "Lengyel"
+  },
+  "Wyatt Swaner": {
+    "number": "63",
+    "position": "OL",
+    "first_name": "Wyatt",
+    "last_name": "Swaner"
+  },
+  "Braylen Jackson": {
+    "number": "64",
+    "position": "DL",
+    "first_name": "Braylen",
+    "last_name": "Jackson"
+  },
+  "Sean Thompkins": {
+    "number": "65",
+    "position": "OL",
+    "first_name": "Sean",
+    "last_name": "Thompkins"
+  },
+  "Koltin Sieracki": {
+    "number": "66",
+    "position": "OL",
+    "first_name": "Koltin",
+    "last_name": "Sieracki"
+  },
+  "Aleki Manutai": {
+    "number": "67",
+    "position": "DL",
+    "first_name": "Aleki",
+    "last_name": "Manutai"
+  },
+  "Omar Aigbedion": {
+    "number": "68",
+    "position": "OL",
+    "first_name": "Omar",
+    "last_name": "Aigbedion"
+  },
+  "Sidney Fugar": {
+    "number": "69",
+    "position": "OL",
+    "first_name": "Sidney",
+    "last_name": "Fugar"
+  },
+  "Matthew Parker": {
+    "number": "71",
+    "position": "OL",
+    "first_name": "Matthew",
+    "last_name": "Parker"
+  },
+  "Coleton Price": {
+    "number": "72",
+    "position": "OL",
+    "first_name": "Coleton",
+    "last_name": "Price"
+  },
+  "Kaden Sieracki": {
+    "number": "74",
+    "position": "OL",
+    "first_name": "Kaden",
+    "last_name": "Sieracki"
+  },
+  "Harrison Cluff": {
+    "number": "75",
+    "position": "OL",
+    "first_name": "Harrison",
+    "last_name": "Cluff"
+  },
+  "Keyston Allison": {
+    "number": "76",
+    "position": "OL",
+    "first_name": "Keyston",
+    "last_name": "Allison"
+  },
+  "Isaiah Robinson": {
+    "number": "76",
+    "position": "OL",
+    "first_name": "Isaiah",
+    "last_name": "Robinson"
+  },
+  "Colton Thomasson": {
+    "number": "77",
+    "position": "OL",
+    "first_name": "Colton",
+    "last_name": "Thomasson"
+  },
+  "Joe Crocker": {
+    "number": "78",
+    "position": "OL",
+    "first_name": "Joe",
+    "last_name": "Crocker"
+  },
+  "Connor Cameron": {
+    "number": "79",
+    "position": "OL",
+    "first_name": "Connor",
+    "last_name": "Cameron"
+  },
+  "Jackson Baird": {
+    "number": "80",
+    "position": "WR",
+    "first_name": "Jackson",
+    "last_name": "Baird"
+  },
+  "Seth Weller": {
+    "number": "81",
+    "position": "WR",
+    "first_name": "Seth",
+    "last_name": "Weller"
+  },
+  "Cody Mladenka": {
+    "number": "82",
+    "position": "TE",
+    "first_name": "Cody",
+    "last_name": "Mladenka"
+  },
+  "Jadon Porter": {
+    "number": "83",
+    "position": "WR",
+    "first_name": "Jadon",
+    "last_name": "Porter"
+  },
+  "Chase Collier": {
+    "number": "84",
+    "position": "WR",
+    "first_name": "Chase",
+    "last_name": "Collier"
+  },
+  "Matthew Klopfenstein": {
+    "number": "85",
+    "position": "TE",
+    "first_name": "Matthew",
+    "last_name": "Klopfenstein"
+  },
+  "Hawkins Polley": {
+    "number": "86",
+    "position": "TE",
+    "first_name": "Hawkins",
+    "last_name": "Polley"
+  },
+  "Ashton Jones": {
+    "number": "87",
+    "position": "WR",
+    "first_name": "Ashton",
+    "last_name": "Jones"
+  },
+  "Samu Taumanupepe": {
+    "number": "88",
+    "position": "DL",
+    "first_name": "Samu",
+    "last_name": "Taumanupepe"
+  },
+  "Taz Williams": {
+    "number": "88",
+    "position": "WR",
+    "first_name": "Taz",
+    "last_name": "Williams"
+  },
+  "Daniel Edeni": {
+    "number": "89",
+    "position": "WR",
+    "first_name": "Daniel",
+    "last_name": "Edeni"
+  },
+  "Alessandro Lorenzetti": {
+    "number": "90",
+    "position": "DL",
+    "first_name": "Alessandro",
+    "last_name": "Lorenzetti"
+  },
+  "Adonis Friloux": {
+    "number": "91",
+    "position": "DL",
+    "first_name": "Adonis",
+    "last_name": "Friloux"
+  },
+  "Trent Thomas": {
+    "number": "92",
+    "position": "DL",
+    "first_name": "Trent",
+    "last_name": "Thomas"
+  },
+  "DK Kalu": {
+    "number": "93",
+    "position": "DL",
+    "first_name": "DK",
+    "last_name": "Kalu"
+  },
+  "Dylan Schaub": {
+    "number": "93",
+    "position": "LS",
+    "first_name": "Dylan",
+    "last_name": "Schaub"
+  },
+  "Caden Boenig": {
+    "number": "94",
+    "position": "DL",
+    "first_name": "Caden",
+    "last_name": "Boenig"
+  },
+  "Palmer Williams": {
+    "number": "94",
+    "position": "P",
+    "first_name": "Palmer",
+    "last_name": "Williams"
+  },
+  "Alex Foster": {
+    "number": "95",
+    "position": "DL",
+    "first_name": "Alex",
+    "last_name": "Foster"
+  },
+  "Connor Hawkins": {
+    "number": "96",
+    "position": "K",
+    "first_name": "Connor",
+    "last_name": "Hawkins"
+  },
+  "Tonga Lolohea": {
+    "number": "96",
+    "position": "DL",
+    "first_name": "Tonga",
+    "last_name": "Lolohea"
+  },
+  "Hayden Arnold": {
+    "number": "97",
+    "position": "K",
+    "first_name": "Hayden",
+    "last_name": "Arnold"
+  },
+  "Rhett Armstrong": {
+    "number": "98",
+    "position": "K",
+    "first_name": "Rhett",
+    "last_name": "Armstrong"
+  },
+  "Jackson Blackwell": {
+    "number": "98",
+    "position": "DL",
+    "first_name": "Jackson",
+    "last_name": "Blackwell"
+  }
+}
