@@ -116,7 +116,7 @@ npm run preview
 ## 📊 Data Currently Loaded
 
 ### Sample Dataset (30 Athletes)
-- Real BUFB athletes with actual test data
+- Real Baylor athletes with actual test data
 - Multiple tests per athlete for trend analysis
 - Positions: S, CB, WR, TE, QB, LB, OLB, RB
 - All key metrics included:
