@@ -2,7 +2,7 @@
 
 **Date:** 2025-10-20
 **Reviewer:** Claude
-**Project:** CMJ Performance Dashboard for BUFB 2025
+**Project:** CMJ Performance Dashboard for Baylor University Football 2025
 
 ---
 

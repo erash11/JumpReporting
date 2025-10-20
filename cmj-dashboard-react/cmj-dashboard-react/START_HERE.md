@@ -60,7 +60,7 @@ Then drag `dist/` folder to: **https://app.netlify.com/drop**
 2. **Cohort** - Position roster & comparison
 3. **Athlete** - Individual profile & trends
 
-### Real BUFB Data
+### Real Baylor Data
 - 30 athletes loaded (expandable to all 112)
 - Multiple tests per athlete
 - All positions covered

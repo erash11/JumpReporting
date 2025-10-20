@@ -1,7 +1,7 @@
 {
   "name": "cmj-dashboard",
   "version": "1.0.0",
-  "description": "CMJ Performance Dashboard - BUFB 2025",
+  "description": "CMJ Performance Dashboard - Baylor University Football 2025",
   "type": "module",
   "scripts": {
     "dev": "vite",
