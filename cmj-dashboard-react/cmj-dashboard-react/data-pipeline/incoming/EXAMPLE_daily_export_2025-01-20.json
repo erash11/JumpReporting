@@ -1,0 +1,32 @@
+[
+  {
+    "name": "John Smith",
+    "position": "WR",
+    "number": "11",
+    "date": "01/20/2025",
+    "bw_kg": 85.5,
+    "rsi_modified": 0.95,
+    "jump_height_cm": 62.3,
+    "peak_power": 6850,
+    "peak_force": 2680,
+    "takeoff_velocity": 3.50,
+    "contraction_time": 655,
+    "countermovement_depth": 35.2,
+    "tests": 15
+  },
+  {
+    "name": "Mike Davis",
+    "position": "S",
+    "number": "7",
+    "date": "01/20/2025",
+    "bw_kg": 88.2,
+    "rsi_modified": 1.02,
+    "jump_height_cm": 68.5,
+    "peak_power": 7150,
+    "peak_force": 2790,
+    "takeoff_velocity": 3.67,
+    "contraction_time": 640,
+    "countermovement_depth": 37.8,
+    "tests": 18
+  }
+]

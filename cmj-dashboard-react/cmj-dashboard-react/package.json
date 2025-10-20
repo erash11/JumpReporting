@@ -6,7 +6,10 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "ingest-data": "node data-pipeline/ingest.js",
+    "watch-data": "node data-pipeline/watch.js",
+    "deploy-data": "npm run ingest-data && git add . && git commit -m 'Data: Update CMJ test results' && git push origin main"
   },
   "dependencies": {
     "date-fns": "^4.1.0",

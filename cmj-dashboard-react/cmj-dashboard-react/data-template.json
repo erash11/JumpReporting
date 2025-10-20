@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "exportDate": "2025-01-20",
+    "totalTests": 5827,
+    "totalAthletes": 112,
+    "season": "2025",
+    "team": "Baylor University Football"
+  },
+  "tests": [
+    {
+      "name": "Athlete Name",
+      "position": "S",
+      "number": "3",
+      "date": "10/02/2025",
+      "bw_kg": 78.71,
+      "rsi_modified": 1.04,
+      "jump_height_cm": 70.1,
+      "peak_power": 6782,
+      "peak_force": 2731,
+      "takeoff_velocity": 3.71,
+      "contraction_time": 645,
+      "countermovement_depth": 39.1,
+      "tests": 24
+    }
+  ],
+  "positions": [
+    { "code": "WR", "name": "Wide Receiver" },
+    { "code": "S", "name": "Safety" },
+    { "code": "CB", "name": "Cornerback" },
+    { "code": "RB", "name": "Running Back" },
+    { "code": "TE", "name": "Tight End" },
+    { "code": "QB", "name": "Quarterback" },
+    { "code": "LB", "name": "Linebacker" },
+    { "code": "OLB", "name": "Outside Linebacker" },
+    { "code": "DL", "name": "Defensive Line" },
+    { "code": "OL", "name": "Offensive Line" }
+  ]
+}
