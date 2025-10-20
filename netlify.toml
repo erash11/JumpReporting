@@ -1,0 +1,22 @@
+# Netlify configuration for CMJ Dashboard
+# This file tells Netlify where to find and how to build the React app
+
+[build]
+  # Set the base directory to where the React app lives
+  base = "cmj-dashboard-react/cmj-dashboard-react"
+
+  # Command to build the application
+  command = "npm install && npm run build"
+
+  # Directory to publish (relative to base)
+  publish = "dist"
+
+# SPA routing - redirect all routes to index.html
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Set Node.js version
+[build.environment]
+  NODE_VERSION = "18"
