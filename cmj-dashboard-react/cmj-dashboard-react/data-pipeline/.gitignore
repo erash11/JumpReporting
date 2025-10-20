@@ -1,0 +1,10 @@
+# Ignore incoming data files (before processing)
+incoming/*.json
+!incoming/EXAMPLE_*.json
+
+# Ignore processed/archived files
+processed/
+
+# Keep directory structure
+!incoming/.gitkeep
+!processed/.gitkeep
