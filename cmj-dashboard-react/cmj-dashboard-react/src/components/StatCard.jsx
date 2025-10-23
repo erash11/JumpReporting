@@ -6,21 +6,25 @@ import React from 'react';
  */
 export default function StatCard({ label, value, unit, color }) {
   const colorClasses = {
-    blue: 'from-blue-500 to-blue-600 text-blue-100',
-    green: 'from-green-500 to-green-600 text-green-100',
-    purple: 'from-purple-500 to-purple-600 text-purple-100',
-    orange: 'from-orange-500 to-orange-600 text-orange-100'
+    green: {
+      bg: 'from-baylor-green to-baylor-green-dark',
+      text: 'text-white'
+    },
+    gold: {
+      bg: 'from-baylor-gold to-baylor-gold-dark',
+      text: 'text-baylor-green-dark'
+    }
   };
 
-  const colorClass = colorClasses[color] || colorClasses.blue;
+  const colorClass = colorClasses[color] || colorClasses.green;
 
   return (
-    <div className={`bg-gradient-to-br ${colorClass} rounded-xl p-6 text-white shadow-lg`}>
-      <div className={`${color === 'blue' ? 'text-blue-100' : color === 'green' ? 'text-green-100' : color === 'purple' ? 'text-purple-100' : 'text-orange-100'} text-sm font-semibold mb-2`}>
+    <div className={`bg-gradient-to-br ${colorClass.bg} rounded-xl p-6 shadow-lg border-2 ${color === 'gold' ? 'border-baylor-gold-200' : 'border-baylor-green-200'}`}>
+      <div className={`${colorClass.text} text-sm font-semibold mb-2 font-agency`}>
         {label}
       </div>
-      <div className="text-4xl font-bold">{value}</div>
-      {unit && <div className={`${color === 'blue' ? 'text-blue-100' : color === 'green' ? 'text-green-100' : color === 'purple' ? 'text-purple-100' : 'text-orange-100'} text-sm mt-1`}>{unit}</div>}
+      <div className={`text-4xl font-bold font-agency ${colorClass.text}`}>{value}</div>
+      {unit && <div className={`${colorClass.text} text-sm mt-1 font-agency`}>{unit}</div>}
     </div>
   );
 }
