@@ -4,6 +4,7 @@ import ErrorBoundary from './components/ErrorBoundary';
 import OverviewView from './components/OverviewView';
 import CohortView from './components/CohortView';
 import AthleteProfileView from './components/AthleteProfileView';
+import DateSlicer from './components/DateSlicer';
 
 /**
  * Main CMJ Dashboard Component
@@ -17,18 +18,49 @@ export default function CMJDashboard() {
   const [selectedAthlete, setSelectedAthlete] = useState(null);
   const [view, setView] = useState('overview');
   const [sortBy, setSortBy] = useState('jump');
+  const [dateFilter, setDateFilter] = useState({ mode: 'all' });
 
-  // Get unique athletes (latest test only)
+  // Get date range for DateSlicer
+  const dateRange = useMemo(() => {
+    const dates = cmjDataFull.map(t => new Date(t.date));
+    return {
+      min: new Date(Math.min(...dates)).toISOString().split('T')[0],
+      max: new Date(Math.max(...dates)).toISOString().split('T')[0]
+    };
+  }, []);
+
+  // Filter data by date
+  const filteredByDate = useMemo(() => {
+    if (dateFilter.mode === 'all') return cmjDataFull;
+
+    if (dateFilter.mode === 'single') {
+      const targetDate = new Date(dateFilter.date).toISOString().split('T')[0];
+      return cmjDataFull.filter(t => new Date(t.date).toISOString().split('T')[0] === targetDate);
+    }
+
+    if (dateFilter.mode === 'range') {
+      const start = new Date(dateFilter.start);
+      const end = new Date(dateFilter.end);
+      return cmjDataFull.filter(t => {
+        const testDate = new Date(t.date);
+        return testDate >= start && testDate <= end;
+      });
+    }
+
+    return cmjDataFull;
+  }, [dateFilter]);
+
+  // Get unique athletes (latest test only) from filtered data
   const uniqueAthletes = useMemo(() => {
     const athleteMap = new Map();
-    cmjDataFull.forEach(test => {
+    filteredByDate.forEach(test => {
       const key = `${test.name}-${test.position}`;
       if (!athleteMap.has(key) || new Date(test.date) > new Date(athleteMap.get(key).date)) {
         athleteMap.set(key, test);
       }
     });
     return Array.from(athleteMap.values());
-  }, []);
+  }, [filteredByDate]);
 
   // Get athlete test history
   const getAthleteHistory = (athlete) => {
@@ -118,24 +150,24 @@ export default function CMJDashboard() {
     <ErrorBoundary>
       <div className="min-h-screen bg-gray-50">
         {/* Header */}
-        <div className="bg-gradient-to-r from-blue-600 to-blue-800 text-white shadow-lg">
+        <div className="bg-gradient-to-r from-baylor-green to-baylor-green-dark text-white shadow-lg">
           <div className="max-w-7xl mx-auto px-6 py-6">
             <div className="flex justify-between items-start">
               <div>
-                <h1 className="text-4xl font-bold">CMJ Performance Tracker</h1>
-                <p className="text-blue-100 mt-2 text-lg">
+                <h1 className="text-4xl font-bold font-agency">CMJ Performance Tracker</h1>
+                <p className="text-baylor-gold-100 mt-2 text-lg">
                   Baylor University Football 2025 • Force Plate Testing
                 </p>
                 <div className="flex gap-4 mt-3 text-sm">
-                  <span className="bg-blue-700 px-3 py-1 rounded-full">5,827 Tests</span>
-                  <span className="bg-blue-700 px-3 py-1 rounded-full">112 Athletes</span>
-                  <span className="bg-blue-700 px-3 py-1 rounded-full">Sep-Oct 2025</span>
+                  <span className="bg-baylor-gold text-baylor-green-dark px-3 py-1 rounded-full font-semibold">5,827 Tests</span>
+                  <span className="bg-baylor-gold text-baylor-green-dark px-3 py-1 rounded-full font-semibold">112 Athletes</span>
+                  <span className="bg-baylor-gold text-baylor-green-dark px-3 py-1 rounded-full font-semibold">Sep-Oct 2025</span>
                 </div>
               </div>
               {view !== 'overview' && (
                 <button
                   onClick={resetView}
-                  className="bg-white text-blue-600 px-4 py-2 rounded-lg font-semibold hover:bg-blue-50 transition-colors"
+                  className="bg-baylor-gold text-baylor-green-dark px-4 py-2 rounded-lg font-bold hover:bg-baylor-gold-dark transition-colors font-agency"
                   aria-label="Return to home"
                 >
                   ← Home
@@ -146,12 +178,21 @@ export default function CMJDashboard() {
         </div>
 
         <div className="max-w-7xl mx-auto px-6 py-6 space-y-6">
+          {/* Date Filter */}
+          {view === 'overview' && (
+            <DateSlicer
+              onDateChange={setDateFilter}
+              minDate={dateRange.min}
+              maxDate={dateRange.max}
+            />
+          )}
+
           {/* Breadcrumbs */}
           {view !== 'overview' && (
             <nav className="flex items-center gap-2 text-sm bg-white rounded-lg px-4 py-3 shadow-sm" aria-label="Breadcrumb">
               <button
                 onClick={resetView}
-                className="text-blue-600 hover:underline font-medium"
+                className="text-baylor-green hover:underline font-medium"
               >
                 Overview
               </button>
@@ -160,7 +201,7 @@ export default function CMJDashboard() {
                   <span className="text-gray-400" aria-hidden="true">›</span>
                   <button
                     onClick={() => setView('cohort')}
-                    className={`${view === 'cohort' ? 'text-gray-900 font-semibold' : 'text-blue-600 hover:underline'}`}
+                    className={`${view === 'cohort' ? 'text-gray-900 font-semibold' : 'text-baylor-green hover:underline'}`}
                   >
                     {positions.find(p => p.code === selectedPosition)?.name}
                   </button>

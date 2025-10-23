@@ -25,35 +25,35 @@ export default function CohortView({
         <StatCard
           label="Athletes"
           value={filteredAthletes.length}
-          color="blue"
+          color="green"
         />
         <StatCard
           label="Avg Jump"
           value={positionStats?.avgJump.toFixed(1)}
           unit="cm"
-          color="green"
+          color="gold"
         />
         <StatCard
           label="Avg Power"
           value={Math.round(positionStats?.avgPower)}
           unit="W"
-          color="purple"
+          color="green"
         />
         <StatCard
           label="Avg RSI"
           value={positionStats?.avgRSI.toFixed(2)}
-          color="orange"
+          color="gold"
         />
       </div>
 
       {/* Roster Table */}
-      <div className="bg-white rounded-xl shadow-md p-6">
+      <div className="bg-white rounded-xl shadow-md p-6 border-t-4 border-baylor-gold">
         <div className="flex justify-between items-center mb-6">
-          <h3 className="text-2xl font-bold text-gray-900">
+          <h3 className="text-2xl font-bold text-baylor-green font-agency">
             {positionName} Roster
           </h3>
           <select
-            className="px-4 py-2 border-2 border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 font-medium"
+            className="px-4 py-2 border-2 border-baylor-green rounded-lg focus:outline-none focus:ring-2 focus:ring-baylor-gold font-medium"
             value={sortBy}
             onChange={(e) => setSortBy(e.target.value)}
             aria-label="Sort roster by"
@@ -68,16 +68,15 @@ export default function CohortView({
         <div className="overflow-x-auto">
           <table className="w-full">
             <thead>
-              <tr className="border-b-2 border-gray-200 bg-gray-50">
-                <th className="text-left py-4 px-4 font-bold text-gray-700">Rank</th>
-                <th className="text-left py-4 px-4 font-bold text-gray-700">Athlete</th>
-                <th className="text-center py-4 px-4 font-bold text-gray-700">#</th>
-                <th className="text-right py-4 px-4 font-bold text-gray-700">Tests</th>
-                <th className="text-right py-4 px-4 font-bold text-gray-700">Jump (cm)</th>
-                <th className="text-right py-4 px-4 font-bold text-gray-700">Power (W)</th>
-                <th className="text-right py-4 px-4 font-bold text-gray-700">RSI</th>
-                <th className="text-center py-4 px-4 font-bold text-gray-700">Rating</th>
-                <th className="text-right py-4 px-4 font-bold text-gray-700"></th>
+              <tr className="border-b-2 border-baylor-green bg-baylor-green-50">
+                <th className="text-left py-4 px-4 font-bold text-baylor-green font-agency">Rank</th>
+                <th className="text-left py-4 px-4 font-bold text-baylor-green font-agency">Athlete</th>
+                <th className="text-right py-4 px-4 font-bold text-baylor-green font-agency">Tests</th>
+                <th className="text-right py-4 px-4 font-bold text-baylor-green font-agency">Jump (cm)</th>
+                <th className="text-right py-4 px-4 font-bold text-baylor-green font-agency">Power (W)</th>
+                <th className="text-right py-4 px-4 font-bold text-baylor-green font-agency">RSI</th>
+                <th className="text-center py-4 px-4 font-bold text-baylor-green font-agency">Rating</th>
+                <th className="text-right py-4 px-4 font-bold text-baylor-green font-agency"></th>
               </tr>
             </thead>
             <tbody>
@@ -85,18 +84,17 @@ export default function CohortView({
                 const rating = getPerformanceRating(athlete.jump_height_cm, positionStats.avgJump);
 
                 return (
-                  <tr key={idx} className="border-b border-gray-100 hover:bg-blue-50 transition-colors">
-                    <td className="py-4 px-4 font-bold text-gray-900 text-lg">{idx + 1}</td>
+                  <tr key={idx} className="border-b border-gray-100 hover:bg-baylor-green-50 transition-colors">
+                    <td className="py-4 px-4 font-bold text-gray-900 text-lg font-agency">{idx + 1}</td>
                     <td className="py-4 px-4 font-bold text-gray-900">{athlete.name}</td>
-                    <td className="text-center py-4 px-4 text-gray-700 font-medium">#{athlete.number}</td>
                     <td className="text-right py-4 px-4 text-gray-600">{athlete.tests}</td>
-                    <td className="text-right py-4 px-4 font-bold text-blue-600 text-lg">
+                    <td className="text-right py-4 px-4 font-bold text-baylor-gold-700 text-lg font-agency">
                       {athlete.jump_height_cm.toFixed(1)}
                     </td>
-                    <td className="text-right py-4 px-4 font-bold text-green-600">
+                    <td className="text-right py-4 px-4 font-bold text-baylor-green font-agency">
                       {Math.round(athlete.peak_power)}
                     </td>
-                    <td className="text-right py-4 px-4 font-bold text-purple-600">
+                    <td className="text-right py-4 px-4 font-bold text-baylor-gold-700 font-agency">
                       {athlete.rsi_modified.toFixed(2)}
                     </td>
                     <td className="text-center py-4 px-4">
@@ -107,10 +105,10 @@ export default function CohortView({
                     <td className="text-right py-4 px-4">
                       <button
                         onClick={() => onAthleteClick(athlete)}
-                        className="text-blue-600 hover:text-blue-800 font-bold text-lg"
+                        className="text-baylor-green hover:text-baylor-gold font-bold text-lg font-agency"
                         aria-label={`View ${athlete.name} profile`}
                       >
-                        →
+                        View →
                       </button>
                     </td>
                   </tr>
